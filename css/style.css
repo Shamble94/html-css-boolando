@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 /* HEADER */
 header{
@@ -11,6 +12,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1;
+    max-width: 100%;
 }
 /* Main */
 main{
@@ -27,8 +29,8 @@ img{
 .container{
     margin: 0 auto;
     padding: 20px;
-    width: 1500px;
-    flex-wrap: wrap;
+    width: 1200px;
+    max-width: 100%;
 }
 
 /* Lista */
@@ -64,8 +66,8 @@ li{
     width: calc(60% - 10px);
 }
 
-.col-60 img{
-    width: 20%;
+header img{
+    max-width: 20%;
 }
 
 /* Row */
@@ -153,7 +155,7 @@ li{
     color: white;
     padding: 5px 10px;
     background-color: green ;
-   
+    float: left;
 }
 /* Etichetta sostenibilita senza etichetta sconto */
 .sostenibilita-s{
@@ -208,4 +210,8 @@ li{
 }
 .color-white{
     color:white
+}
+
+.text-end{
+    text-align: end;
 }
